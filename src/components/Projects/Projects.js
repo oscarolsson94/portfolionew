@@ -25,12 +25,13 @@ const Projects = () => (
     <SectionDivider />
     <SectionTitle main>Projects</SectionTitle>
     <GridContainer>
-      {projectsDemo.map((project) => (
-        <div>
-          {project.title}
-          <br />
-          {project.description}
-        </div>
+      {projects.map((project) => (
+        <BlogCard key={project.id}>
+          <Img src={project.image} />
+          <TitleContent>
+            <HeaderThree title>{project.title}</HeaderThree>
+          </TitleContent>
+        </BlogCard>
       ))}
     </GridContainer>
   </Section>
