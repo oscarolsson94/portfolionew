@@ -15,6 +15,10 @@ const Hero = (props) => (
         Welcome To <br />
         Oscar Olsson's Portfolio
       </SectionTitle>
+      <SectionText>
+        I'm a full stack developer constantly striving to improve by
+        experimenting with new technology.
+      </SectionText>
     </LeftSection>
   </Section>
 );
