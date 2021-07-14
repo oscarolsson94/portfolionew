@@ -21,6 +21,18 @@ const Technologies = () => (
     <SectionText>
       I've worked with a range of technologies in the web development world.
     </SectionText>
+    <List>
+      <ListItem>
+        <DiFirebase size="3rem" />
+        <ListContainer>
+          <ListTitle>Front-End</ListTitle>
+          <ListParagraph>
+            Experience with: <br />
+            React.js
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+    </List>
   </Section>
 );
 
